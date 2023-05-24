@@ -7,10 +7,12 @@ export default defineConfig({
   base: '/vue-docker/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/mylogo.png',  
+    siteTitle: 'Vue-Docker',
     nav: [
       { text: 'Inicio', link: '/' },           
       { text: 'Comenzar', link: '/guide/intro' },
-      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' }, 
+      { text: 'ecanquiz', link: 'https://ecanquiz.github.io/' }, 
     ],
     sidebar: [
       {
@@ -29,7 +31,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CaribesTIC/vue-docker' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/vue-docker' }
     ]
   }
 })
